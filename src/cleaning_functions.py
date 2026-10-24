@@ -17,7 +17,7 @@ def remove_na(df):
     pandas DataFrame
         DataFrame with rows removed with missing values in the cnt, temp, or workingday columns
     """
-    df_clean = df.dropna(subset = ["cnt", "temp", "workingday"])
+    df_clean = df.dropna(subset = ["cnt", "temp", "workingday"]).reset_index(drop = True)
     return(df_clean)
 
 def select_cols(df):
@@ -75,19 +75,3 @@ def working_day(df):
     df_new = pd.concat([df, work_day], axis = 1)
     return(df_new)
 
-
-
-"""Classify a score as high or low using a threshold value
-
-  Parameters
-  ----
-  score: float
-    observed score to classify
-  threshold: float, default = 80
-    minimum value to define a score as high
-
-  Returns
-  ----
-  str
-    high if value is >= threshold
-  """
