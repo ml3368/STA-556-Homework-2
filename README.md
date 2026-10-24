@@ -3,6 +3,8 @@ Public Repository for STA 556 Homework 2
 
 The data for this homework came from the UC Irving Machine Learning Repository (https://archive.ics.uci.edu/dataset/275/bike+sharing+dataset)
 
+Fanaee-T, H. (2013). Bike Sharing [Dataset]. UCI Machine Learning Repository. https://doi.org/10.24432/C5W894.
+
 The data being used is the Bike Sharing data set that contains data on bike rental counts per day, along with data about the date, the weather (temp, windspeed, humidity), whether it is a holiday or not, and whether it is a workday or not.
 
 The purpose of the project is to determine how the daily temperature and whether the day given is a workday affect bike rental counts.
