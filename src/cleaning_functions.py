@@ -45,7 +45,7 @@ def absolute_temp(df):
     df: pandas DataFrame
         filtered analysis data frame
     
-    Retuns
+    Returns
     ----
     pandas DataFrame
         filtered analysis data frame with new abs_temp column
